@@ -1,0 +1,186 @@
+*{
+    color: white;
+    background-color: black;
+
+}
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+button{
+    background-color: black;
+    color: rgb(219, 39, 255);
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(219, 39, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: background-color 0.5s, color 0.5s, font-size 0.5s;
+    margin-top: 5px;
+    
+}
+button:hover {
+    background-color: rgb(219, 39, 255);
+    color: white;
+    font-size: 23px;
+}
+button:active{
+    opacity: 0.7;
+}
+#nav{
+    margin-top: 10px;
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    border: 3px solid rgb(219, 39, 255);
+    border-radius: 5px;
+    
+}
+header h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+    transition: text-shadow 0.5s;
+    
+}
+header h1:hover{
+    text-shadow: 3px 3px 2px rgb(219, 39, 255);
+    
+}
+
+.profile-pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    transition: box-shadow 0.5s;
+}
+.profile-pic:hover{
+    box-shadow: 3px 3px 10px rgb(219, 39, 255);
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    margin: 25px;
+    border: 3px solid rgb(219, 39, 255);
+    border-radius: 5px;
+}
+.name{
+    font-size: 50px;
+}
+.description{
+    font-size: 23px;
+}
+
+form {
+    display: block;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-size: 25px;
+    
+}
+
+.submit {
+    font-size:28px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+    border: 2px solid rgb(219, 39, 255);
+    border-radius: 5px;
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+.submit:hover{
+    border-radius: 20px;
+    background-color: rgb(219, 39, 255);
+}
+.reset {
+    font-size:28px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border: 2px solid rgb(219, 39, 255);
+    border-radius: 5px;
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+.reset:hover{
+    border-radius: 20px;
+    background-color: rgb(219, 39, 255);
+}
+input {
+    font-size: 20px;
+    transition: box-shadow 0.5s;
+}
+input:hover{
+    box-shadow: 3px 3px 5px rgb(219, 39, 255);
+}
+select {
+    font-size: 20px;
+}
+
+#contact{
+    text-align: center;
+    height: 100vh;
+    margin: 25px;
+    border: 3px solid rgb(219, 39, 255);
+    border-radius: 5px;
+    
+
+}
+#contact h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.map{
+    height: 450px;
+    width: 450px;
+    margin-left: 200px;
+    margin-bottom: 150px;
+    border-radius: 300px;
+    transition: box-shadow 0.5s;
+}
+.map:hover{
+    box-shadow: 3px 3px 20px rgb(219, 39, 255);
+}
+.contact-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
+#registration{
+    text-align: center;
+    height: 100vh;
+    margin: 25px;
+    border: 3px solid rgb(219, 39, 255);
+    border-radius: 5px;
+
+}
+#registration h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+h1{
+    transition: text-decoration-line 0.5s;
+}
+h1:hover{
+    text-decoration-line: underline;
+}

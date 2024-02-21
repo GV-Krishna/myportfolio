@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my Portfolio</h1>
+
+        <div>
+            <div id="Nav">
+                <a href="#home"><button>Home</button></a>
+                <a href="#contact"><button>Contact</button></a>
+                <a href="#registration"><button>Registration</button></a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="home">
+            <div>
+                <h1 class="name">Vinnu</h1>
+                <img src="profile.jpg" alt="MyProfilePic" class="profile-pic">
+            </div>
+            <div>
+                <p class="description">
+                        Hello there! I'm Vinnu, a passionate and creative web developer <br>
+                    with a knack for turning ideas into digital reality. <br>
+                    With a deep love for coding and a keen eye for design, <br>
+                    I bring websites to life that not only function seamlessly <br>
+
+                    but also look stunning.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            
+            <div class="contact-info">
+                <img src="address.png" alt="My address" class="map">
+                <form >
+
+                    <label for="name1">First Name:</label>
+                    <input type="text" id="name1" placeholder="Enter First Name" minlength="1" maxlength="100" required><br>
+                    <br>
+                    <label for="name2">Second Name:</label>
+                    <input type="text" id="name2" placeholder="Enter Second Name" minlength="3" maxlength="100" required><br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter email" required><br>
+                    <br>
+                    <label for="phone">Phone No.</label>
+                    <input type="tel" id="phone" placeholder="Mobile Number" required><br>
+                    <br>
+                
+                    <br>
+                    <input type="submit" class="submit">
+                    
+                    <input type="reset" class="reset">
+        
+                </form>
+            </div>
+
+        </section>
+        <section id="registration">
+            <h1>Registration Page for Online Wallet</h1>
+            <form >
+
+                <label for="name1">First Name:</label>
+                <input type="text" id="name1" placeholder="Enter First Name" minlength="1" maxlength="100" required><br>
+                <br>
+                <label for="name2">Second Name:</label>
+                <input type="text" id="name2" placeholder="Enter Second Name" minlength="3" maxlength="100" required><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter email" required><br>
+                <br>
+                <label for="phone">Phone No.</label>
+                <input type="tel" id="phone" placeholder="Mobile Number" required><br>
+                <br>
+            
+                <br>
+                <button>
+                    Register
+                </button>
+    
+            </form>
+        </section>
+    </main>
+</body>
+</html>
